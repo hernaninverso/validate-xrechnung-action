@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: eleata/validate-xrechnung-action@v1
+      - uses: hernaninverso/validate-xrechnung-action@v1
         with:
           files: ./invoices/**/*.xml
           format: xrechnung-2.x
